@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculator By</title>
+  
+  <!-- HTML 
+  
+   Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="Calculator">
+    <div class="names">
+          <h2> Calculator </h2>
+          
+        <!--  <marquee scrollamount='3'> Shubham Jain </marquee> -->
+        
+    </div>
+     <form name="form">
+        <input id="Textview" type="text" name="Textview" placeholder=" 0 " disabled> 
+     </form>
+
+    <div class="keys">
+<br>      
+      <button class="btn" name="btn" id="btn-clear" onclick="Clean()"> C </button>
+      <button class="btn" name="btn" id="" onclick="Back()"> DEL </button>
+      <button class="btn" name="btn" id="" onclick="input('*')"> × </button>
+      <button class="btn" name="btn" id="" onclick="input('/')"> ÷ </button>
+<br>
+
+      <button class="btn" name="btn" id="" onclick="input(7)"> 7 </button>
+      <button class="btn" name="btn" id="" onclick="input(8)"> 8 </button>
+      <button class="btn" name="btn" id="" onclick="input(9)"> 9 </button>
+      <button class="btn" name="btn" id="" onclick="input('-')"> - </button>
+<br>
+      <button class="btn" name="btn" id="" onclick="input(4)"> 4 </button>
+      <button class="btn" name="btn" id="" onclick="input(5)"> 5 </button>
+      <button class="btn" name="btn" id="" onclick="input(6)"> 6 </button>
+      <button class="btn" name="btn" id="" onclick="input('+')"> + </button>
+<br>
+      <button class="btn" name="btn" id="" onclick="input(1)"> 1 </button>
+      <button class="btn" name="btn" id="" onclick="input(2)"> 2 </button>
+      <button class="btn" name="btn" id="" onclick="input(3)"> 3 </button>
+      <button class="btn" name="btn" id="" onclick="input('%')"> % </button>
+
+<br>
+      <button class="btn" name="btn" id="" onclick="Zero()"> 0 </button>
+      <button class="btn" name="btn" id="" onclick="input('.')"> . </button>
+      <button class="btn" name="btn" id="btn-equal" onclick="Equal()"> = </button>
+<br>
+    </div>
+  </div>
+     <div id="copy">
+        &copy;Shubham Jain
+     </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

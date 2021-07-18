@@ -1,0 +1,94 @@
+body{
+  margin:0;
+  padding:0;
+}
+.names {
+  text-align: center;
+}
+.names h2{
+  margin-top:0px;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.names marquee{
+   text-align: right;
+   margin-bottom:-10px;
+   margin-right: 12px;
+   font-size: 15px ;
+   font-weight: bolder;
+   margin-left: 17rem;
+   padding: 3px;
+   border: 3px double greenyellow;
+}
+.Calculator {
+  background: black;
+  height:680px;
+  width: 400px;
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  border: 6px solid red;
+}
+#Textview{
+  width: 350px;
+  text-align: right;
+  height: 40px;
+  left: 0;
+  right: 0;
+  margin: 30px auto 10px auto; 
+  margin-left: 8px;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+input[type="text"]{
+  font-size: 40px;
+}
+
+.keys{
+  /*border:4px double #A4F806;*/
+}
+.btn{
+  position: relative;
+  height: 65px;
+  width: 75px;
+  margin: 10px;
+  /*padding: 20px;*/
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#btn-clear{
+  background: red;
+  color: black;
+}
+#btn-plus {
+ position: absolute;
+ width: 55px;
+ height: 160px;
+ background-color: greenyellow;
+ color: black;
+}
+#btn-equal {
+  position: absolute;
+  width: 180px;
+  height: 65px;
+  background-color: greenyellow;
+  color: black;
+  align-items: center;
+}
+.btn:hover{
+  background:#04F2EB;
+}
+#copy {
+   position: fixed;
+   padding: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto 2.5px auto;
+    font-size: 20px;
+    color:#F20406;
+    text-shadow: .5px .5px 5px #5c5859;
+}
